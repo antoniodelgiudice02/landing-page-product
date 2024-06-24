@@ -41,5 +41,28 @@ export const store = reactive({
       ]
       
     },
+    {
+        current: 3,
+        name: "Products",
+        title: "La Collezione Di Paperelle",
+        ducks: [
+          {
+              img: 'product-item1.png',
+              price: '15',
+              name: 'Cool Duck'
+          },
+          {
+              img: 'product-item2.png',
+              price: '29',
+              name: 'Classic Duck'
+          },
+          {
+              img: 'product-item3.png',
+              price: '69',
+              name: 'BatDuck'
+          },
+        ]
+        
+      },
   ],
 });

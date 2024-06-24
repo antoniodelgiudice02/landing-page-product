@@ -15,7 +15,6 @@ export default {
         };
     },
     mounted() {
-        // Inizializza Swiper dopo che il DOM è stato aggiornato
         nextTick(() => {
             new Swiper('.swiper', {
                 modules: [Navigation, Pagination],
@@ -45,5 +44,5 @@ export default {
 </template>
 
 <style scoped lang="scss">
-/* Aggiungi stili personalizzati per il componente Swiper */
+
 </style>
