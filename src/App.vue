@@ -4,6 +4,7 @@ import AppJumbo from './components/layout/main/AppJumbo.vue';
 import AppAbout from './components/layout/main/AppAbout.vue';
 import AppTestimonials from './components/layout/main/AppTestimonials.vue';
 import AppProducts from './components/layout/main/AppProducts.vue';
+import AppFaqs from './components/layout/main/AppFaqs.vue';
 import AppFooter from './components/layout/AppFooter.vue';
 
 export default{
@@ -13,7 +14,7 @@ export default{
     }
   },
 
-  components: {AppHeader, AppFooter, AppJumbo,AppAbout, AppTestimonials, AppProducts}
+  components: {AppHeader, AppFooter, AppJumbo,AppAbout, AppTestimonials, AppProducts, AppFaqs}
 }
 </script>
 
@@ -25,6 +26,7 @@ export default{
     <AppAbout></AppAbout>
     <AppTestimonials></AppTestimonials>
     <AppProducts></AppProducts>
+    <AppFaqs></AppFaqs>
   </main>
   <AppFooter></AppFooter>
 
