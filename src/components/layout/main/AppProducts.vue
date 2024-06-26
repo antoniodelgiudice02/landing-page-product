@@ -24,9 +24,10 @@ export default {
     <section id="products">
 
         <div class="container">
-            <h1>{{ store.sections[3].title }}</h1>
+            <h1 class="text-center">{{ store.sections[3].title }}</h1>
+            <div class="text-center">Una papera per ogni stile di programmazione</div>
             <div class="row">
-                <div class="col-12" v-for="duck in store.sections[3].ducks">
+                <div class="col-12 col-md-4" v-for="duck in store.sections[3].ducks">
                     <CardProducts :img="duck.img" :name="duck.name" :price="duck.price"></CardProducts>
 
                 </div>
