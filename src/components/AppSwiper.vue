@@ -22,7 +22,16 @@ export default {
                 pagination: {
                     el: '.swiper-pagination',
                     clickable: true,
+                    dynamicBullets: true,
+
                 },
+                breakpoints: {
+                    768: {
+                        slidesPerView: 3,
+                        spaceBetween: 10,
+                        slidesPerGroup: 3,
+                    },
+                }
             });
         });
     },
@@ -31,18 +40,16 @@ export default {
 
 <template>
     <div class="swiper">
-        <div class="swiper-wrapper mb-5">
+        <div class="swiper-wrapper text-center mb-5">
             <div class="swiper-slide text-center" v-for="testimonial in store.sections[2].testimonials">
                 <div>{{ testimonial.text }}</div>
-                <div>{{ testimonial.customer}}</div>
-                <div>{{ testimonial.date}}</div>
+                <div>{{ testimonial.customer }}</div>
+                <div>{{ testimonial.date }}</div>
             </div>
         </div>
-        
+
         <div class="swiper-pagination"></div>
     </div>
 </template>
 
-<style scoped lang="scss">
-
-</style>
+<style scoped lang="scss"></style>

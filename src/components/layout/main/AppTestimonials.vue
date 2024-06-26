@@ -24,7 +24,7 @@ export default {
 
         <div class="container">
             <h1 class="text-center">{{ store.sections[2].title }}</h1>
-            <div class="row">
+            <div class="row ">
                 <div class="col p-3">
 
                     <AppSwiper></AppSwiper>
