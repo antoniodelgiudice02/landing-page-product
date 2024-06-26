@@ -37,4 +37,9 @@ export default {
 
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+
+@import '../../../assets/style/variables';
+h1{
+    margin-bottom: $h1-margin-bottom;
+}</style>

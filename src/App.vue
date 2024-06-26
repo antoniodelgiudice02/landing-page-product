@@ -8,19 +8,19 @@ import AppFaqs from './components/layout/main/AppFaqs.vue';
 import AppSubscribe from './components/layout/main/AppSubscribe.vue';
 import AppFooter from './components/layout/AppFooter.vue';
 
-export default{
-  data(){
-    return{
+export default {
+  data() {
+    return {
 
     }
   },
 
-  components: {AppHeader, AppFooter, AppJumbo,AppAbout, AppTestimonials, AppProducts, AppFaqs, AppSubscribe}
+  components: { AppHeader, AppFooter, AppJumbo, AppAbout, AppTestimonials, AppProducts, AppFaqs, AppSubscribe }
 }
 </script>
 
 <template>
-  
+
   <AppHeader></AppHeader>
   <main>
     <AppJumbo></AppJumbo>
@@ -35,5 +35,5 @@ export default{
 </template>
 
 <style scoped lang="scss">
-
+@use './assets/style/general.scss';
 </style>

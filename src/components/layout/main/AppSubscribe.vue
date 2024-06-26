@@ -24,7 +24,7 @@ export default {
 
 <template>
 
-    <section id="products">
+    <section id="subscribe">
 
         <div class="container text-center mt-5">
 
@@ -64,27 +64,36 @@ export default {
 </template>
 
 <style scoped lang="scss">
-.input-group {
-    border-bottom: 1px solid rgb(192, 192, 192);
-    margin-top: 50px;
 
-    button {
-        width: 15%;
-    }
+@import '../../../assets/style/variables';
+h1{
+    margin-bottom: $h1-margin-bottom;
+}
+#subscribe {
+    background-color: #f8f8f8;
 
-    input,
-    button {
-        border: none;
-        border-radius: 0;
+    .input-group {
+        border-bottom: 1px solid rgb(192, 192, 192);
+        margin-top: 50px;
 
-        svg {
-            height: 30px;
+        button {
+            width: 15%;
+        }
+
+        input,
+        button {
+            border: none;
+            border-radius: 0;
+
+            svg {
+                height: 30px;
+            }
         }
     }
-}
 
-.col-1{
-    margin: 0 10px;
-}
+    .col-1 {
+        margin: 0 10px;
+    }
 
+}
 </style>

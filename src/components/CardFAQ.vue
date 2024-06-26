@@ -44,7 +44,8 @@ export default {
 <style scoped lang="scss">
 .card {
     border: none;
-    margin: 20px 0;
+    margin-top: 100px;
+    margin-bottom: 60px;
 
     .card-header {
         border: none;

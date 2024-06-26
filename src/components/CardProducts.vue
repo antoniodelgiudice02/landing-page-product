@@ -49,6 +49,8 @@ export default {
 .card {
 
     border: none;
+    background-color: rgba(255, 222, 173, 0);
+    margin-top: 30px;
 
     .card-header {
         background-color: rgba(255, 222, 173, 0);

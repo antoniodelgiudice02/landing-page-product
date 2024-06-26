@@ -18,19 +18,19 @@ export default {
 
 <template>
 
-    <section id="about">
+    <section id="Faqs">
 
         <div class="container">
 
             <div class="row">
 
-                <div class="col col-md-6">
-                    <div class="img-container">
+                <div class="col-12 col-md-6">
+                    <div class="img-container w-100">
                         <img src="../../../assets/imgs/single-image2.png" class="w-100" alt="">
                     </div>
                 </div>
 
-                <div class="col col-md-6">
+                <div class="col-12 col-md-6">
                     <div class="row flex-column">
                         <h1> {{ store.sections[4].title }}</h1>
 
@@ -57,4 +57,15 @@ export default {
 
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+
+@import '../../../assets/style/variables';
+h1{
+    margin-bottom: $h1-margin-bottom;
+}
+
+img{
+    width: 75%;
+}
+
+</style>
