@@ -11,6 +11,32 @@ export const store = reactive({
     {
       current: 1,
       name: "About",
+      cards:[
+        {
+          title: 'Lunga Durata della Batteria',
+          text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus totam quibusdam quae quaerat neque veritatis officiis assumenda recusandae, similique, voluptate culpa maiores consectetur iste repellendus consequatur enim placeat ipsa expedita.'
+        },
+        {
+          title: 'Compatibilità Universale',
+          text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus totam quibusdam quae quaerat neque veritatis officiis assumenda recusandae, similique, voluptate culpa maiores consectetur iste repellendus consequatur enim placeat ipsa expedita.'
+        },
+        {
+          title: 'Design Elegante',
+          text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus totam quibusdam quae quaerat neque veritatis officiis assumenda recusandae, similique, voluptate culpa maiores consectetur iste repellendus consequatur enim placeat ipsa expedita.'
+        },
+        {
+          title: 'Resistenza agli Spruzzi',
+          text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus totam quibusdam quae quaerat neque veritatis officiis assumenda recusandae, similique, voluptate culpa maiores consectetur iste repellendus consequatur enim placeat ipsa expedita.'
+        },
+        {
+          title: 'Portabilità',
+          text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus totam quibusdam quae quaerat neque veritatis officiis assumenda recusandae, similique, voluptate culpa maiores consectetur iste repellendus consequatur enim placeat ipsa expedita.'
+        },
+        {
+          title: 'Promemoria Anti-Stress',
+          text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus totam quibusdam quae quaerat neque veritatis officiis assumenda recusandae, similique, voluptate culpa maiores consectetur iste repellendus consequatur enim placeat ipsa expedita.'
+        },
+      ]
     },
     {
       current: 2,
